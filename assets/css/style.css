@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.default-border{
+    box-shadow:0 20px 30px gray;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+button{
+    background-color: black;
+    color:white;
+    border-radius: 20px;
+    padding: 5px 25px;
+    
+}
+/* Styling nav */
+    nav{
+        background-color: #cdcdcd;
+        display: flex;
+        height: 7vh;
+        align-items: center;
+        padding: 0  5%;
+    }
+
+    nav div{
+        display: flex;
+        flex: 50%; 
+    }
+
+    nav .right-side{
+        justify-content: flex-end;  
+       
+    }
+    nav .right-side a{
+        background-color: black;
+        color: white;
+        padding: 4px 20px;
+        text-decoration: none;
+        border-radius: 5px;
+        font-size: 18px;
+        
+    }
+  
+    nav .left-side{
+        align-items: center;
+    }
+
+    nav ul{
+        display: flex;
+    }
+
+    nav .left-side ul li{
+        margin-left: 40px;
+        list-style-type: none;
+      
+        
+    }
+    nav .left-side a{
+        text-decoration: none;
+        color: black;
+    }
+
+    nav .left-side .active{
+        font-weight: bold;
+    }
+
+    nav img{
+        width: 7%;
+    }
+
+    
+/* Styling nav */
+
+/* Index HTML */
+
+.main-container{
+    padding:40px 10%;
+}
+
+
+.container{
+    display: flex;
+    
+    margin: auto;
+    padding:40px 200px 120px 200px;
+   
+    align-items: center;
+    flex: 50%;
+    justify-content: space-between;
+}
+
+
+.right-side .name{
+    margin:auto;
+    text-align:center;
+    margin-top: 40px;
+    border-radius: 10px;
+    box-shadow:0 10px 100px gray;
+    margin-top:-4px;
+    padding: 10px 0 10px 0;
+}
+
+.container .left-side{
+    width: 55%;
+    text-align: justify;
+}
+
+.container .right-side{
+    height: 400px;
+    width: 300px;
+   
+}
+.container .right-side img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px 10px 0 0;
+}
+.border-help{
+    border: 1px solid black;
+}
+
+.left-side .contact-content{
+    display: flex;
+    flex: 50%;
+    margin:30px 0;
+    
+}
+.contact-content .download-cv a{
+    display: flex;
+    flex:50%;
+    margin-left: 40px;
+    align-items: center;
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+.contact-content .download-cv i{
+    margin-left: 10px;
+}
+
+
+.fa-instagram, .fa-facebook, .fa-twitter{
+    margin-left: 30px;
+    
+}
+.socmed-content i{
+    color: black;
+}
+
+/* Index HTML */
+
+
+/* Contact Me */
+
+
+.main-form-container{
+    padding-top:50px ;
+}
+.form-container{
+    width: 25%;
+   padding: 30px;
+    margin: auto;
+}
+
+.form-container h1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-container label{
+    font-weight: bold;
+}
+
+.input-size{
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 3px;
+}
+
+textarea{
+    resize:none;
+    height: 100px;
+}
+
+.button-contact-me{
+    display: flex;
+    justify-content: flex-end;
+}
